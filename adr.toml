@@ -1,0 +1,16 @@
+# example of adr.toml config
+
+# adr specific config
+[adr]
+auto-open-editor = true
+editor = "code" # vscode
+template = "example/book/template.md"
+
+# mdbook config, passthrough
+[book]
+title = "Architectural Decision Records"
+authors = ["Alec Savvy", "The Mandalorian", "Grogu"]
+src = "example/book/src"
+
+[build]
+src = "example/book/out"
